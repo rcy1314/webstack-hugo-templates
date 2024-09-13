@@ -3,7 +3,9 @@ webstack-hugo导航部署模版
 
 项目来源：https://github.com/shenweiyan/WebStack-Hugo
 
-##  部署 您可以一键将这个项目部署到不同的平台。 
+##  部署 
+
+您可以一键将这个项目部署到不同的平台。 
 
 
 
@@ -22,7 +24,11 @@ webstack-hugo导航部署模版
 ### GitHub Pages
 [点击使用 GitHub Pages 部署](https://github.com/features/actions/starter-workflows/deploy-to-github-pages)
 
+## GitHub action 工作流运行
 
+构建页面工作流将在您点击 “Start Workflow” 按钮后立即运行，并且在每次 `main` 分支有变动时也会自动运行
+
+自动检测失效链接工作流将在您点击 “Start Workflow” 按钮后立即运行，需要定时运行时取消cron前的#符号即可
 
 ## 许可证 
 

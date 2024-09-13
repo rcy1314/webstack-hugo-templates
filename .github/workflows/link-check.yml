@@ -1,8 +1,8 @@
 name: Link Checker
 
 on:
-  schedule:
-    - cron: '0 0 1 * *' # 每月的 UTC 时间 00:00（即每月的第一天）
+  #schedule:
+  #  - cron: '0 0 1 * *' # 每月的 UTC 时间 00:00（即每月的第一天）
   workflow_dispatch: # 允许手动触发
 
 jobs:
